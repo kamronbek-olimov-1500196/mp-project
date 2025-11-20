@@ -1,0 +1,25 @@
+# Core FastAPI dependencies
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+
+# Database dependencies
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.9
+
+# Data validation and serialization
+pydantic==2.10.3
+
+# Authentication and security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Form and file handling
+python-multipart==0.0.12
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Database migrations (optional - using SQLite with direct schema creation)
+# alembic==1.14.0
+
+# Note: Added psycopg2-binary for PostgreSQL support in production (Railway)
