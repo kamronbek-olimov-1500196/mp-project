@@ -13,7 +13,7 @@ from sqlalchemy.exc import ProgrammingError
 logging.basicConfig(level=logging.INFO)
 
 def ensure_database_tables():
-    """Ensure all required tables exist before starting the app"""
+    """Ensure all required tables exist before starting the app."""
     
     database_url = os.getenv("DATABASE_URL")
     if not database_url:
